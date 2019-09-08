@@ -43,15 +43,20 @@ class Vampire {
   // * when comparing Ansel and Sarah, Ansel is the closest common anscestor.
   // * when comparing Ansel and Andrew, Ansel is the closest common anscestor.
   closestCommonAncestor(vampire) {
-    if (this.isMoreSeniorThan(vampire)) {
-      return this;
-    } else {
-      return vampire;
-    }
+
+    // let currentVampire = this;
+    // let currentVampire2 = vampire;
+    // if (this.creator.name === vampire.name) {
+    //   return vampire;
+    // }  
 
 
   }
 }
+
+
+
+
 
 module.exports = Vampire;
 
